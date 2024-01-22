@@ -6,6 +6,7 @@ const nextConfig = {
 	eslint: {
 		ignoreDuringBuilds: true, // 빌드 시 eslint 검사를 하지 않도록 설정한다. 이후에 CI 과정에서 ESLint 검사를 진행할 예정이므로 빌드 시간 단축을 위함이다.
 	},
+	styledComponents: true, // styled-components를 사용하기 위한 설정
 };
 
 module.exports = nextConfig;
