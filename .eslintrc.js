@@ -5,4 +5,8 @@ module.exports = {
     "@titicaca/eslint-config-triple/prettier",
     "next/core-web-vitals",
   ],
+  rules: {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+  },
 };
